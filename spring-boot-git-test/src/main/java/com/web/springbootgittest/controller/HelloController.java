@@ -11,7 +11,8 @@ public class HelloController {
 	@GetMapping("/ping")
 	public ResponseEntity<String> ping()
 	{
-		System.out.println("ping methhod!!!!!!!");
+//		System.out.println("ping methhod!!!!!!!");
+		System.out.println("ping called successfully!!!!!!!");
 		return new ResponseEntity<String>("success", HttpStatus.OK);
 		
 	}
